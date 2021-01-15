@@ -1,0 +1,15 @@
+{
+  "name": "testing_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node --verbose --junitreport spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-node": "^3.0.0",
+    "require": "^0.4.4"
+  }
+}

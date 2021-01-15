@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="An equivalence class suite" errors="0" tests="0" failures="0" time="0" timestamp="2021-01-15T09:53:26">
+</testsuite>
+<testsuite name="An equivalence class suite.should test the account module" errors="0" tests="3" failures="0" time="0.001" timestamp="2021-01-15T09:53:26">
+  <testcase classname="An equivalence class suite.should test the account module" name="gets the age factor" time="0"></testcase>
+  <testcase classname="An equivalence class suite.should test the account module" name="gets the balance factor" time="0"></testcase>
+  <testcase classname="An equivalence class suite.should test the account module" name="gets the account status" time="0.001"></testcase>
+</testsuite>
+<testsuite name="An equivalence class suite.should test the credit status" errors="0" tests="0" failures="0" time="0" timestamp="2021-01-15T09:53:26">
+</testsuite>
+<testsuite name="An equivalence class suite.should test the credit status.in default mode" errors="0" tests="1" failures="0" time="0" timestamp="2021-01-15T09:53:26">
+  <testcase classname="An equivalence class suite.should test the credit status.in default mode" name="gets the credit status" time="0"></testcase>
+</testsuite>
+<testsuite name="An equivalence class suite.should test the credit status.in restricted mode" errors="0" tests="1" failures="0" time="0" timestamp="2021-01-15T09:53:26">
+  <testcase classname="An equivalence class suite.should test the credit status.in restricted mode" name="gets the credit status" time="0"></testcase>
+</testsuite>
+<testsuite name="An equivalence class suite.should determine the product availability" errors="0" tests="0" failures="0" time="0" timestamp="2021-01-15T09:53:26">
+</testsuite>
+<testsuite name="An equivalence class suite.should determine the product availability.#productStatus()" errors="0" tests="2" failures="0" time="0" timestamp="2021-01-15T09:53:26">
+  <testcase classname="An equivalence class suite.should determine the product availability.#productStatus()" name="returns invalid if product not found" time="0"></testcase>
+  <testcase classname="An equivalence class suite.should determine the product availability.#productStatus()" name="gets the product status" time="0"></testcase>
+</testsuite>
+<testsuite name="An equivalence class suite.should handle the order actions correctly" errors="0" tests="0" failures="0" time="0" timestamp="2021-01-15T09:53:26">
+</testsuite>
+<testsuite name="An equivalence class suite.should handle the order actions correctly.#orderHandling()" errors="0" tests="4" failures="0" time="0.001" timestamp="2021-01-15T09:53:26">
+  <testcase classname="An equivalence class suite.should handle the order actions correctly.#orderHandling()" name="gets the order status rejected" time="0.001"></testcase>
+  <testcase classname="An equivalence class suite.should handle the order actions correctly.#orderHandling()" name="gets the order status accepted" time="0"></testcase>
+  <testcase classname="An equivalence class suite.should handle the order actions correctly.#orderHandling()" name="gets the order status pending" time="0"></testcase>
+  <testcase classname="An equivalence class suite.should handle the order actions correctly.#orderHandling()" name="gets the order status under review" time="0"></testcase>
+</testsuite>
+</testsuites>
