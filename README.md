@@ -4,15 +4,15 @@ A full test suite for ```Order Handling``` function in JavaScript
 
 Includes functional (BB) unit tests, Structural (WB) unit tests and Integration Testing.
 
-Written with JavaScript -- tests using Jasmine and Mocha with complete code coverage tracked with Istanbul
+Written with JavaScript -- tests using Mocha, Jasmine and complete code coverage tracked with Istanbul
 
-The tests are separated into two different directories, `jasmine-functional-testing/testing_2` & `jasmine-structural-integration-testing/testing_3`:
+The tests are separated into two different directories, `jasmine-functional-testing` & `jasmine-structural-integration-testing`:
 
-* Clone this repository and `cd javascript_test_suite`
+* Clone this repository and `cd jasmine-testing`
 
 To run the functional tests:
 
-  1. `cd jasmine-functional-testing/testing_2`
+  1. `cd jasmine-functional-testing`
   
   2. `npm install jasmine-node -g`
 
@@ -22,14 +22,16 @@ To run the functional tests:
 
 To run the structural & integration tests:
 
-  1. `cd jasmine-structural-integration-testing/testing_3`
+  1. `cd jasmine-structural-integration-testing`
 
-  2. `npm install -g nyc`
+  2. `npm install -g istanbul`
+
+  3. `npm install -g nyc`
   
-  3. `npm install`
+  4. `npm install`
 
-  3. `npm test`
+  5. `npm test`
 
-You should see a verose output the test results and of code coverage. Visual code coverage files also provided in `jasmine-structural-integration-testing/testing_3/coverage`
+You should see a verose output the test results and of code coverage. Visual code coverage files also provided in `jasmine-structural-integration-testing/coverage`
 
 *Note: see also `javascript_sample.js`
