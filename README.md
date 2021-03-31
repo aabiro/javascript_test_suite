@@ -32,6 +32,6 @@ To run the structural & integration tests:
 
   5. `npm test`
 
-You should see a verose output the test results and of code coverage. Visual code coverage files also provided in `jasmine-structural-integration-testing/coverage`
+You should see a verbose output the test results and of code coverage. Visual code coverage files also provided in `jasmine-structural-integration-testing/coverage`
 
 *Note: see also `javascript_sample.js`
